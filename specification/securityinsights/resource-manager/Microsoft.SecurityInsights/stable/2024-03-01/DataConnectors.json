@@ -155,7 +155,7 @@
           "Creates or updates an Threat Intelligence Platform data connector.": {
             "$ref": "./examples/dataConnectors/CreateThreatIntelligenceDataConnector.json"
           },
-          "Creates or updates a Microsoft Threat Intelligence data connector.": {
+          "Creates or updates a MicrosoftThreatIntelligence data connector.": {
             "$ref": "./examples/dataConnectors/CreateMicrosoftThreatIntelligenceDataConnector.json"
           }
         },
@@ -431,6 +431,7 @@
         "AzureSecurityCenter",
         "MicrosoftCloudAppSecurity",
         "ThreatIntelligence",
+        "MicrosoftThreatIntelligence",
         "Office365",
         "AmazonWebServicesCloudTrail",
         "AzureAdvancedThreatProtection",
@@ -452,6 +453,9 @@
           },
           {
             "value": "ThreatIntelligence"
+          },
+          {
+            "value": "MicrosoftThreatIntelligence"
           },
           {
             "value": "Office365"
